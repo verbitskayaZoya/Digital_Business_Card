@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { Text } from "./Text.styled"
+import photo from "../src/assets/zoya-v.jpeg"
 
 const Image  = styled.img`
     width: 300px;
@@ -62,7 +63,7 @@ export default function Info() {
     return (
     <>
         <Header>
-            <Image src="../src/assets/zoya-v.jpeg" alt="Photo of me" />
+            <Image src={photo} alt="Photo of me" />
             <h1> Zoya Verbitskaya </h1>
             <Text $accent> Frontend Developer </Text>
             <nav>
